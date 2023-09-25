@@ -95,7 +95,7 @@ body {
 }
 @media (max-width: 767px) {
   .chats .chat {
-    margin: 15px 10px 7px;
+    margin: 15px 5px 7px;
   }
 }
 .chats .chat > img {
