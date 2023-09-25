@@ -93,6 +93,11 @@ body {
   display: flex;
   margin: 30px 30px 0;
 }
+@media (max-width: 767px) {
+  .chats .chat {
+    margin: 15px 10px 7px;
+  }
+}
 .chats .chat > img {
   max-width: 70px;
   border-radius: 50%;
@@ -111,6 +116,14 @@ body {
   color: var(--p-color);
   font-weight: 600;
   font-family: tajawal;
+}
+@media (max-width: 767px) {
+  .chats .chat .info h3 {
+    font-size: 16px;
+  }
+  .chats .chat .info p {
+    font-size: 14px;
+  }
 }
 .chat .time {
   display: flex;
